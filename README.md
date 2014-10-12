@@ -24,9 +24,10 @@ This is [an example] [id] reference-style link.
 [foo]: http://example.com/  "Optional Title Here"
 [foo]: http://example.com/  'Optional Title Here'
 [foo]: http://example.com/  (Optional Title Here)
-[id]: <http://example.com/>  "Optional Title Here333"
+[id]: <http://example.com/>  "Optional Title Here"
 [link text][a]
 [link text][A]
+[a]:http://www.baidu.com/
 [Google]: http://google.com/
 Visit [Daring Fireball][] for more information.
 [Daring Fireball]: http://daringfireball.net/

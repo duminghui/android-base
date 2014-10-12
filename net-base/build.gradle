@@ -37,3 +37,4 @@ retrolambda {
 }
 
 apply from: "${rootProject.projectDir}/gradle-mvn-push.gradle"
+apply from: "${rootProject.projectDir}/jar.gradle"

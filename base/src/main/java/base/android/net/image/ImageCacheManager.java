@@ -1,4 +1,4 @@
-package bse.android.net.image;
+package base.android.net.image;
 
 import com.android.volley.toolbox.ImageLoader;
 

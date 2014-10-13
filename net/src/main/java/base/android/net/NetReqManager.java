@@ -11,6 +11,7 @@ import com.android.volley.toolbox.Volley;
  * Created by dumh on 14/10/12.
  */
 public class NetReqManager {
+    public static final String VERSION = "0.0.1.9";
     private static final String TAG = "ReqManager";
     private static RequestQueue requestQueue;
 

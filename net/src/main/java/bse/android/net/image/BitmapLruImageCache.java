@@ -11,6 +11,7 @@ import com.android.volley.toolbox.ImageLoader;
  */
 public class BitmapLruImageCache implements ImageLoader.ImageCache {
 
+
     private LruCache<String, Bitmap> lruCache;
 
     BitmapLruImageCache(int sizeLimit) {

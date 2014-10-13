@@ -9,6 +9,7 @@ import base.android.net.NetReqManager;
  * Created by dumh on 14/10/12.
  */
 public class ImageCacheManager {
+
     private static final ImageCacheManager instance = new ImageCacheManager();
 
     private ImageLoader imageLoader;

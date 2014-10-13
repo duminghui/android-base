@@ -1,4 +1,4 @@
-package bse.android.net.image;
+package base.android.net.image;
 
 import android.graphics.Bitmap;
 import android.support.v4.util.LruCache;

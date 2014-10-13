@@ -23,6 +23,7 @@ import java.net.UnknownServiceException;
  * 日志打印类.
  */
 public class BaseLog {
+
     private static final int INDEX_CLASS = 0;
     private static final int INDEX_FILE = 1;
     private static final int INDEX_METHOD = 2;

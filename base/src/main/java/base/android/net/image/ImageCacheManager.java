@@ -24,6 +24,14 @@ public class ImageCacheManager {
         return instance;
     }
 
+    /**
+     * 默认初始化为当前最大内存的1/8
+     */
+    public void initDefault(){
+        int image_memory_cache_maxsize = (int) (Runtime.getRuntime().maxMemory() / 8);
+        init(image_memory_cache_maxsize);
+    }
+
     public void init(int cacheSizeLimit) {
         imageCache = new BitmapLruImageCache(cacheSizeLimit);
         imageLoader = new ImageLoader(NetReqManager.getRequestQueue(), imageCache);
